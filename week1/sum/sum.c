@@ -7,10 +7,10 @@ int main()
     
     //input x
     printf("enter the integer: ");
-    scanf("%d", &x)
+    scanf("%d", &x);
 
     //calculate and display x
-    printf("%d/n", x*(x+1)/2);
+    printf("%d\n", x*(x+1)/2);
     
     return 0;   
 }
