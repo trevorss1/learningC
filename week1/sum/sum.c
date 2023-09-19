@@ -1,8 +1,17 @@
 #include<stdio.h>
 
-int main();
+int main()
 {
-    long x = get_long("x: ");
+    //declare x
+    int x;
+    
+    //input x
+    printf("enter the integer: ");
+    scanf("%d", &x)
 
-    printf("%d/n", x*(x+1)/2)
+    //calculate and display x
+    printf("%d/n", x*(x+1)/2);
+    
+    return 0;   
 }
+    
