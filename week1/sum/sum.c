@@ -23,21 +23,14 @@
 //}
 
 
-int sum_to(int a)
+int sum_to(int x)
 {
-    int x;
-    do 
-        {
-            printf("enter the integer: ");
-            scanf("%d", &x);
-        }
-    while ( x < 0);
-
-    for (int s = 0; s <=  x; s++)
+    int s, y =0;
+    for (s = 0; s <= x; s++)
     {
-        a = a + s;
-    }
-    return a;
+      y = y + s; 
+    } 
+    return y; 
 }
 int main()
 {
@@ -48,10 +41,8 @@ int main()
             scanf("%d", &x);
         }
     while ( x < 0);
-    
-    {
-        int y = sum_to(x);
-        printf("%d\n", y);
-        return 0;
-    }
+    int j = sum_to(x);
+    printf("%d\n", j);
+
+    return 0;
 }
