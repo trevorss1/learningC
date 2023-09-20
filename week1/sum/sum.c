@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(s)
+int main()
 {
     //declare x
     int x, s, y, a;
@@ -11,17 +11,16 @@ int main(s)
         scanf("%d", &x);
     }
     while (x < 0);
+    
     {
-    do (int s = 0; s < x; s++)
-    {
-        int y += s;
-    }
-    while (s < x);
+    for (int s = 0; s < x; s++)
+
+    
     }
     {
         printf("%d", y);
     }
-    return 0
+    return 0;
 }
 
 
