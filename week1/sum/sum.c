@@ -12,14 +12,13 @@ int main()
     }
     while (x < 0);
     
-    {
-    for (int s = 0; s < x; s++)
-
     
-    }
+    for (s = 0; s <= x; s++)
     {
-        printf("%d", y);
-    }
+        y = y + s; 
+    } 
+      printf("%d\n", y);
+      
     return 0;
 }
 
