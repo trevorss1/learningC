@@ -28,7 +28,7 @@ int sum_to(int x)
     int s, y =0;
     for (s = 0; s <= x; s++)
     {
-      y = y + s; 
+      y += s; 
     } 
     return y; 
 }
@@ -41,8 +41,7 @@ int main()
             scanf("%d", &x);
         }
     while ( x < 0);
-    int j = sum_to(x);
-    printf("%d\n", j);
+    printf("%d\n", sum_to(x));
 
     return 0;
 }
