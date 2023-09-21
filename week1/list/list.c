@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+int list()
 {
     int x, z;
     int y = 0;
