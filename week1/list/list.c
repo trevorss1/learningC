@@ -11,13 +11,13 @@ int main()
     } while( x < 0);
 
     
-    for (int a = 0; a <= x; a++)
+    for (int a = 1; a <= x; a++)
     {
-       for (int b = 0; b <= x; b++)
+       for (int b = 1; b <= x; b++)
        {
         y = a*b;
         {
-            printf("%d\n", y);
+            printf("%d * %d = %d\n", a, b, y);
         }
        }
     }
