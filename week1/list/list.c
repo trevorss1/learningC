@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int list()
+int main()
 {
     int x, z;
     int y = 0;
@@ -16,11 +16,10 @@ int list()
        for (int b = 1; b <= x; b++)
        {
         y = a*b;
-        {
-            printf("%d * %d = %d\n", a, b, y);
-        }
+        printf("%d * %d = %d\n", a, b, y);
        }
     }
-
+    return 0;
 }
+
 
