@@ -25,10 +25,10 @@
 
 int sum_to(int x)
 {
-    int s, y =0;
-    for (s = 0; s <= x; s++)
+    int y =0;
+    for(int s = 0; s <= x; s++)
     {
-      y += s; 
+        y += s; 
     } 
     return y; 
 }
@@ -36,11 +36,11 @@ int main()
 {
     int x;
     do 
-        {
-            printf("enter the integer: ");
-            scanf("%d", &x);
-        }
-    while ( x < 0);
+    {
+        printf("enter the integer: ");
+        scanf("%d", &x);
+    } while( x < 0);
+    
     printf("%d\n", sum_to(x));
 
     return 0;
