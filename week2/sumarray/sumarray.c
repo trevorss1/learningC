@@ -11,11 +11,11 @@ int main(void)
     } while( x < 0);
 
    int scores [i = 0];
-   for ( i = 0; i < x; i++)
+   for ( int y = 0; y < x; y++)
    { 
         printf("enter the integers: ");
         scanf("%d", &scores[i]);
    }
    
-    printf("Sum: %d\n", scores[0] + scores[1] + scores [2]);
+    printf("Sum: %d\n", scores[i]);
 }
